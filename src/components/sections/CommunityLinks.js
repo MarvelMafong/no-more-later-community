@@ -66,7 +66,7 @@ export default function CommunityLinks() {
                 borderBottom: i < PLATFORMS.length - 1 ? '1px solid rgba(255,255,255,0.07)' : 'none',
                 textDecoration: 'none', transition: 'background 0.2s',
                 background: 'transparent',
-              }}}}
+              }}
             >
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                 <div style={{

@@ -21,7 +21,7 @@ export default function WhatWeDo() {
                 padding: '2rem 0',
                 borderBottom: '1px solid rgba(255,255,255,0.07)',
                 transition: 'all 0.25s',
-              }}}}
+              }}
             >
               <span style={{
                 fontFamily: 'var(--font-head)', fontWeight: 800,
