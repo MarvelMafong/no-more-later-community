@@ -100,8 +100,6 @@ export default async function WallPostPage({ params }) {
               fontSize: '0.75rem', color: '#6B7280', marginBottom: '2rem',
             }}>
               <Link href="/wall" style={{ color: '#6B7280', textDecoration: 'none', transition: 'color 0.2s' }}
-                onMouseEnter={e => e.target.style.color = '#fff'}
-                onMouseLeave={e => e.target.style.color = '#6B7280'}
               >
                 The Wall
               </Link>

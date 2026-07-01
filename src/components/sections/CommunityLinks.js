@@ -66,15 +66,7 @@ export default function CommunityLinks() {
                 borderBottom: i < PLATFORMS.length - 1 ? '1px solid rgba(255,255,255,0.07)' : 'none',
                 textDecoration: 'none', transition: 'background 0.2s',
                 background: 'transparent',
-              }}
-              onMouseEnter={e => {
-                e.currentTarget.style.background = 'rgba(250,204,21,0.05)'
-                e.currentTarget.querySelector('.arrow').style.transform = 'translateX(4px)'
-              }}
-              onMouseLeave={e => {
-                e.currentTarget.style.background = 'transparent'
-                e.currentTarget.querySelector('.arrow').style.transform = 'translateX(0)'
-              }}
+              }}}}
             >
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                 <div style={{

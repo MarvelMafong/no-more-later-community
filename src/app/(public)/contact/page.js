@@ -176,14 +176,6 @@ export default function ContactPage() {
                       borderBottom: i < CONTACTS.length - 1 ? '1px solid rgba(255,255,255,0.07)' : 'none',
                       textDecoration: 'none', transition: 'background 0.2s',
                     }}
-                    onMouseEnter={e => {
-                      e.currentTarget.style.background = 'rgba(255,255,255,0.03)'
-                      e.currentTarget.querySelector('.c-arrow').style.transform = 'translateX(4px)'
-                    }}
-                    onMouseLeave={e => {
-                      e.currentTarget.style.background = 'transparent'
-                      e.currentTarget.querySelector('.c-arrow').style.transform = 'translateX(0)'
-                    }}
                   >
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
                       <div style={{

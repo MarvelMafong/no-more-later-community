@@ -71,8 +71,6 @@ export default function Footer() {
                     fontSize: '0.82rem', color: '#9CA3AF',
                     textDecoration: 'none', transition: 'color 0.2s',
                   }}
-                    onMouseEnter={e => e.target.style.color = '#fff'}
-                    onMouseLeave={e => e.target.style.color = '#9CA3AF'}
                   >
                     {link.label}
                   </Link>
@@ -103,8 +101,6 @@ export default function Footer() {
                       fontSize: '0.82rem', color: '#9CA3AF',
                       textDecoration: 'none', transition: 'color 0.2s',
                     }}
-                    onMouseEnter={e => e.target.style.color = '#fff'}
-                    onMouseLeave={e => e.target.style.color = '#9CA3AF'}
                   >
                     {link.label}
                   </a>

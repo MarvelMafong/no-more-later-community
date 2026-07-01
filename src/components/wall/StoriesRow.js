@@ -55,8 +55,6 @@ export default function StoriesRow({ onCompose }) {
                 : 'linear-gradient(135deg,#FACC15,#f59e0b,#ef4444)',
               transition: 'transform 0.2s',
             }}
-              onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.06)'}
-              onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}
             >
               <div style={{
                 width: '100%', height: '100%', borderRadius: '50%',

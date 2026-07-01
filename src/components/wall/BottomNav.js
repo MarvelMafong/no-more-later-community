@@ -97,8 +97,6 @@ export default function BottomNav({ onCompose }) {
         boxShadow: '0 4px 20px rgba(250,204,21,0.35)',
         transition: 'transform 0.2s, box-shadow 0.2s',
       }}
-        onMouseEnter={e => { e.currentTarget.style.transform = 'scale(1.08)'; e.currentTarget.style.boxShadow = '0 8px 28px rgba(250,204,21,0.45)' }}
-        onMouseLeave={e => { e.currentTarget.style.transform = 'scale(1)'; e.currentTarget.style.boxShadow = '0 4px 20px rgba(250,204,21,0.35)' }}
       >
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
           <line x1="12" y1="5" x2="12" y2="19"/>

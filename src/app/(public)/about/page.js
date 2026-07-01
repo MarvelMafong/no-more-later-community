@@ -2,7 +2,7 @@ import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 
 export const metadata = {
-  title: 'About — No More Later',
+  title: 'About â€” No More Later',
   description: 'The story behind No More Later. A personal growth community born from a random day, an ironic realization, and a decision to stop waiting.',
 }
 

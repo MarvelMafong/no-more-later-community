@@ -21,17 +21,7 @@ export default function WhatWeDo() {
                 padding: '2rem 0',
                 borderBottom: '1px solid rgba(255,255,255,0.07)',
                 transition: 'all 0.25s',
-              }}
-              onMouseEnter={e => {
-                e.currentTarget.querySelector('.svc-title').style.color = '#FACC15'
-                e.currentTarget.querySelector('.svc-arrow').style.opacity = '1'
-                e.currentTarget.querySelector('.svc-arrow').style.transform = 'translateX(4px)'
-              }}
-              onMouseLeave={e => {
-                e.currentTarget.querySelector('.svc-title').style.color = '#fff'
-                e.currentTarget.querySelector('.svc-arrow').style.opacity = '0'
-                e.currentTarget.querySelector('.svc-arrow').style.transform = 'translateX(0)'
-              }}
+              }}}}
             >
               <span style={{
                 fontFamily: 'var(--font-head)', fontWeight: 800,

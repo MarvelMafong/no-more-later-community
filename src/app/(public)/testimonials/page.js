@@ -122,14 +122,6 @@ export default function TestimonialsPage() {
                 transition: 'border-color 0.2s, transform 0.2s',
                 position: 'relative', overflow: 'hidden',
               }}
-                onMouseEnter={e => {
-                  e.currentTarget.style.borderColor = 'rgba(250,204,21,0.2)'
-                  e.currentTarget.style.transform = 'translateY(-2px)'
-                }}
-                onMouseLeave={e => {
-                  e.currentTarget.style.borderColor = 'rgba(255,255,255,0.07)'
-                  e.currentTarget.style.transform = 'translateY(0)'
-                }}
               >
                 {/* Quote mark */}
                 <div style={{

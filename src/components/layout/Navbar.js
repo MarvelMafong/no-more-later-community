@@ -56,8 +56,7 @@ export default function Navbar() {
                 color: '#9CA3AF', letterSpacing: '0.04em',
                 textDecoration: 'none', transition: 'color 0.2s',
               }}
-                onMouseEnter={e => e.target.style.color = '#fff'}
-                onMouseLeave={e => e.target.style.color = '#9CA3AF'}
+              
               >
                 {link.label}
               </Link>

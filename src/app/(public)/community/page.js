@@ -197,14 +197,6 @@ export default function CommunityPage() {
                   display: 'flex', flexDirection: 'column',
                   gap: '1rem', transition: 'border-color 0.2s, transform 0.2s',
                 }}
-                  onMouseEnter={e => {
-                    e.currentTarget.style.borderColor = 'rgba(250,204,21,0.25)'
-                    e.currentTarget.style.transform = 'translateY(-2px)'
-                  }}
-                  onMouseLeave={e => {
-                    e.currentTarget.style.borderColor = 'rgba(255,255,255,0.07)'
-                    e.currentTarget.style.transform = 'translateY(0)'
-                  }}
                 >
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
                     <div style={{
@@ -235,8 +227,6 @@ export default function CommunityPage() {
                     color: p.color, textDecoration: 'none',
                     transition: 'gap 0.2s',
                   }}
-                    onMouseEnter={e => e.currentTarget.style.gap = '0.65rem'}
-                    onMouseLeave={e => e.currentTarget.style.gap = '0.4rem'}
                   >
                     {p.cta} &#8594;
                   </a>

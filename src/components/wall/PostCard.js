@@ -279,8 +279,6 @@ export default function PostCard({ post, isOwn }) {
       borderBottom: '1px solid rgba(255,255,255,0.07)',
       background: '#0B0F19', transition: 'background 0.2s',
     }}
-      onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,255,255,0.012)'}
-      onMouseLeave={e => e.currentTarget.style.background = '#0B0F19'}
     >
       {renderContent()}
 
